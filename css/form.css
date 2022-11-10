@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.container{
+    width: 45%;
+    /* background-image: linear-gradient(to bottom right, rgb(79, 33, 243),rgb(75, 72, 72)); */
+}
+body{
+    /* background-image: url(../img/imager_3589.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    user-select: none;
+}
+h1, label{
+    color: DodgerBlue;
+}
+label{
+    width: 100%;
+    display: block;
+}
+input[type=text], input[type=password] {
+    width: 80%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    /* resize: vertical; */
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+}
+.tick{
+    margin-left: 6px;
+    display: none;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.signupbtn {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 9px;
+    margin-left: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.signupbtn:hover {
+    opacity:1;
+}
+.signupbtn {
+    width: 90%;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+    text-decoration: none;
+    text-align: center;
+}
+.report{
+    color: red;
+    position: relative;
+    top: -15px;
+    left: 6px;
+}
+/* mobile */
+@media screen and (max-width: 740px) {
+    .container{
+        width: 90%;
+    }
+    input[type=text], input[type=password] {
+        width: 80%;
+    }
+}
